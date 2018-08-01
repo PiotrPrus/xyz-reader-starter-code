@@ -49,15 +49,14 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_margin="16dp"
         android:clickable="true"
         android:contentDescription="@string/action_share"
-        android:elevation="4dp"
+        android:elevation="6dp"
         android:focusable="true"
         android:src="@drawable/ic_share"
-        app:backgroundTint="@color/theme_primary_dark" />
+        app:fabSize="auto"/>
 </android.support.design.widget.CoordinatorLayout>
